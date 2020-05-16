@@ -10,7 +10,3 @@ $(document).ready(function () {
     $('.amenities H4').text(Object.values(amenities).join(', '));
   });
 });
-jqte
-$(seletor).text(textString);
-
-$(selector).attr(attributeName);
