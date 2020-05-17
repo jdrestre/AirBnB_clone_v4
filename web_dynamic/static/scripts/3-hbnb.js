@@ -23,7 +23,7 @@ $(document).ready(function () {
     contentType: 'application/json',
     data: '{}',
     success: function (response) {
-      for (const i in response) {
+      for (let i = 0; i < response.length; i++) {
         $('.places').append(
           '<article>' +
         '<div class="title_box">' +
